@@ -1,0 +1,13 @@
+{
+  "id": 1586944886599,
+  "type": "register",
+  "data": {
+    "header": {
+      "originCountry": "SU",
+      "originBank": "DASB",
+      "receiveCountry": "SU",
+      "receiveBank": "GOSB"
+    },
+    "body": {}
+  }
+}

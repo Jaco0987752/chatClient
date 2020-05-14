@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset=utf-8>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="css/main.css">
+  <title>HTML5 Chat</title>
+</head>
+
+<body>
+
+<section id="wrapper">
+
+  <header>
+    <h1 id="title">Connect to Chat</h1>
+  </header>
+
+  <article>
+
+    <form onsubmit="addMessage(); return false;">
+      <input type="text" id="chat" placeholder="type your name to enter the chat"/>
+    </form>
+
+    <p id="status">Not connected</p>
+    <p>Users connected:<span id="connected">0</span></p>
+    <ul id="users"></ul>
+    <ul id="log"></ul>
+
+  </article>
+
+  <script src="js/main.js"></script>
+
+</section>
+
+</body>
+
+</html>
